@@ -41,14 +41,19 @@ int Method3()
 
 string Method4(int count, string text)
 {
-    int i = 0;
+    // int i = 0;
     string result = String.Empty;
 
-    while (i < count)
+    for (int i = 0; i < count; i++)
     {
         result = result + text;
-        i++;
     }
+
+    // while (i < count)
+    // {
+    //     result = result + text;
+    //     i++;
+    // }
     return result;
 }
 // string text = Method4(5, "qwerty");

@@ -58,3 +58,15 @@ string Method4(int count, string text)
 }
 // string text = Method4(5, "qwerty");
 // System.Console.WriteLine(text);
+
+
+
+
+for (int i = 2; i <= 10; i++)
+{
+    for (int j = 2; j <= 10; j++)
+    {
+        System.Console.WriteLine($"{i} x {j} = {i * j}");
+    }
+    System.Console.WriteLine();
+}
